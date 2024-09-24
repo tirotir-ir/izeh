@@ -1,18 +1,11 @@
-![Izeh Logo](images/icon.png)
 # Izeh VSCode Extension
-Welcome to the Izeh VSCode Extension! 
-Izeh is a versatile VSCode extension tailored for Python developers and enthusiasts. It offers a comprehensive collection of snippets for Python basics, Tkinter GUI development, and useful libraries like colorama, termcolor, pyttsx3, gtts, and playsound.
 
-With Izeh, you can quickly insert code snippets for:
+Welcome to the Izeh VSCode Extension!
 
-    Python Fundamentals: Variables, functions, classes, loops, conditionals, and more.
-    Tkinter: Basic and advanced GUI components including buttons, labels, entries, frames, and message boxes.
-    Popular Libraries: Easy integration with colorama, termcolor, pyttsx3, gtts, and playsound for text-based color formatting, text-to-speech, and audio playback.
-    User Interaction: Enhanced user experience with examples for text input and picture handling.
-
-Perfect for beginners and experienced developers alike, Izeh helps streamline your coding workflow and boost productivity with ready-to-use code snippets.
+Izeh is a versatile extension designed for Python developers and enthusiasts. It provides a comprehensive collection of snippets, lessons, examples, and templates for Python basics, Tkinter GUI development, and popular libraries like `colorama`, `termcolor`, `pyttsx3`, `gtts`, `playsound`, `tkintermapview`, `turtle`, and `pyinstaller`. Additionally, it includes a wide range of questions, exercises, and solutions to enhance your coding skills.
 
 ## Features
+
 ### Python Basics
 - **Basic Python Snippets**: `izeh`
   - Print Hello World: `print('Hello, World!')`
@@ -39,19 +32,25 @@ Perfect for beginners and experienced developers alike, Izeh helps streamline yo
 - **While Loop Example**: `izehwhile`
   - Example of using a while loop in Python.
 
-- ### Libraries
-  - **Colorama**: `izehcolorama`
-    - Use Colorama for colored text output.
-  - **Termcolor**: `izehtermcolor`
-    - Apply colors to text using Termcolor.
-  - **Pyttsx3**: `izehpyttsx3`
-    - Convert text to speech with pyttsx3.
-  - **Gtts**: `izehgtts`
-    - Use gTTS for text-to-speech and play the result.
-  - **Playsound**: `izehplaysound` 
-    - Play sound files with playsound.
-  - **Image Handling**: `izehpicture`
-    - Open and display images using the Pillow library.
+### Libraries
+- **Colorama**: `izehcolorama`
+  - Use Colorama for colored text output.
+- **Termcolor**: `izehtermcolor`
+  - Apply colors to text using Termcolor.
+- **Pyttsx3**: `izehpyttsx3`
+  - Convert text to speech with pyttsx3.
+- **Gtts**: `izehgtts`
+  - Use gTTS for text-to-speech and play the result.
+- **Playsound**: `izehplaysound`
+  - Play sound files with playsound.
+- **Image Handling**: `izehpicture`
+  - Open and display images using the Pillow library.
+- **Map Handling**: `izehmap`
+  - Open and display maps using the tkintermapview library.
+- **Executing**: `izehpyinstaller`
+  - Using PyInstaller to create an executable.
+- **Turtle**: `izehturtle`
+  - Create shapes and images with the turtle library.
 
 ### Tkinter Widgets
 - **Basic Tkinter Window**: `izehtk`
@@ -68,7 +67,7 @@ Perfect for beginners and experienced developers alike, Izeh helps streamline yo
 ## Usage
 
 To use a snippet:
-1. Open a Python file or Tkinter file in VSCode.
+1. Open a Python file in VSCode.
 2. Type the snippet prefix (e.g., `izehadd`).
 3. Press `Tab` to insert the snippet.
 
@@ -78,12 +77,10 @@ Feel free to submit issues and pull requests if you have any suggestions or impr
 
 ## License
 
-This extension is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This extension is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 
-Thank you for using the Izeh VSCode Extension. We hope it helps you with your Python and Tkinter development!
+Thank you for using the Izeh VSCode Extension. We hope it enhances your Python and Tkinter development experience!
 
-
-
-https://github.com/tirotir-ir/izeh.git
+GitHub Repository
